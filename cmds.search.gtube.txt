@@ -1,0 +1,9 @@
+search
+!echo
+
+analyze http.cap
+!echo
+
+!echo search for raw string
+search --key pay.load --value "(?i)XJS\*C4JDBQADN1\.NSBN3\*2IDNEN\*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL\*C\.34X"
+!echo
